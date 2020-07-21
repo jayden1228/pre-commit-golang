@@ -1,0 +1,15 @@
+-   id: go-fmt
+    name: 'go fmt'
+    entry: run-go-fmt.sh
+    language: 'script'
+    description: "Runs `gofmt`, requires golang"
+-   id: go-vet
+    name: 'go vet'
+    entry: run-go-vet.sh
+    language: 'script'
+    description: "Runs `go vet`, requires golang"
+-   id: golangci-lint
+    name: 'golangci-lint'
+    entry: run-golangci-lint.sh
+    language: 'script'
+    description: "Runs `golangci-lint`, requires golang"

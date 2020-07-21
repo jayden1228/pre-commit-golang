@@ -1,0 +1,4 @@
+-   repo: https://github.com/jayden1228/pre-commit-golang
+    rev: master
+    hooks:
+      -   id: go-fmt
